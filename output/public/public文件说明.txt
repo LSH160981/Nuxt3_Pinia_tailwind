@@ -1,0 +1,9 @@
+public[公共，公开] 
+这文件下的资源 
+  当文件进行打包后 可以正常的预览
+  也不会被 脚手架cil vite webpack 等工具打包
+  The public/ directory content is served 
+  at the server root as-is.
+  你可以在根目录下访问这个资源
+  例子： localhost:3000/aaa.jpg 访问
+    有子目录的带上子目录就行
