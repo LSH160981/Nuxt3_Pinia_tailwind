@@ -1,0 +1,7 @@
+{
+  // 报错: nuxt3新项目tsconfig.json报错：找不到“node”的类型定义文件
+  // 解决命令: npm i @types/node -D
+
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
+}
