@@ -7,7 +7,7 @@ export const useAppleStore = defineStore("apple", {
   state: () => {
     return {
       food: "apple-pen",
-      foodNum: 14,
+      foodNum: 66,
     };
   },
 
@@ -21,6 +21,7 @@ export const useAppleStore = defineStore("apple", {
   },
 });
 
+// 热重载
 //  if (import.meta.hot) {
 //   import.meta.hot.accept(acceptHMRUpdate(useAppleStore as any, import.meta.hot));
 // }

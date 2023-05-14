@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // 为了在 CF上deploy  更改输出文件  CF 的默认脚本把.开头的文件视为隐藏文件而不去执行
-  nitro: {
-    output: {
-      dir: "../output",
-      serverDir: "../output/server",
-      publicDir: "../output/public",
-    },
-  },
+  // nitro: {
+  //   output: {
+  //     dir: "../output",
+  //     serverDir: "../output/server",
+  //     publicDir: "../output/public",
+  //   },
+  // },
   // 打包后 不会产出.map文件
   sourcemap: {
     // 前端后端 都要配置

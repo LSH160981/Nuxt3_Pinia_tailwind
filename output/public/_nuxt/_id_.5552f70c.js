@@ -1,1 +1,0 @@
-import{e as a,f as s,a as r,t as n,u as o,o as u}from"./entry.b965bbe4.js";const i={__name:"[id]",setup(l){const e=a();return s({titleTemplate:t=>e.params.id}),(t,p)=>(u(),r("h2",null,"课程号： "+n(o(e).params.id),1))}};export{i as default};

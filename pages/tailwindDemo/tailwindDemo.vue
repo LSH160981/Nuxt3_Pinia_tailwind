@@ -12,7 +12,11 @@
     bg-gradient-to-r from-cyan-500 via-violet-600 to-blue-700"
     >tailwindDemo</h2>
   </div>
-  <tailwindui1/>
+  <testslot>
+    <template>
+      测试slot是否使用成功
+    </template>
+  </testslot>
 </template>
 
 <script setup></script>

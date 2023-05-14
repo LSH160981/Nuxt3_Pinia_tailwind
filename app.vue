@@ -1,6 +1,6 @@
 <template>
   <div class="select-none">
-    <h1 class="bg-pink-400 p-5 text-center rounded-3xl text-4xl my-3 mx-2">{{ hi }}</h1>
+    <h1 class="bg-pink-400 p-5 text-center rounded-3xl text-4xl my-1 mx-2">{{ hi }}</h1>
     <nav class="py-3 text-center flex justify-center gap-2 text-red-500 text-xl">
       <nuxt-link
         active-class="rounded bg-blue-400 text-amber-400 "
@@ -21,6 +21,7 @@ const routeNav = [
   { address: "/roles", content: "角色" },
   { address: "/about", content: "关于" },
   { address: "/testpinia", content: "测试Pinia" },
+  { address: "/testEle", content: "测试Ele" },
   { address: "/tailwindDemo/tailwindDemo", content: "练习tailwind" },
 ];
 
@@ -49,4 +50,10 @@ useHead({
     },
   ],
 });
+
+// 下面这段代码用来测试 provide inject 的    inject的组件是 testEle.vue
+const testfun = function (aaa, testConst) {
+  console.log(`app-${aaa}` + testConst);
+};
+provide(/* 注入名 */ "message", /* 值 */ testfun);
 </script>
