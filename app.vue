@@ -27,7 +27,7 @@ const routeNav = [
 
 // 在 nuxt中 ref 不在需要引入 下面这句话 就能直接使用 ref computed 。。。
 // import { ref } from "vue";
-const hi = ref("你好 Nuxt!");
+const hi = ref("你好 Nuxt~");
 onMounted(() => {});
 
 useHead({
